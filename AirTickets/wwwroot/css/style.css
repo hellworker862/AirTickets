@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+    color: #3366BB;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1110px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: aliceblue;
+    height: 70px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.href-logo{
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.logo-title{
+    font-size: 28px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.nav-menu{
+    height: 70px;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-menu-item{
+    padding: 0px 15px;
+    transition: 0.8s
+}
+
+.nav-menu-item a{
+    display: block;
+    line-height: 70px;
+    color: black;
+}
+
+.nav-menu-item:hover{
+    background-color: #c8c8c8;
+}
+
+.sign-up{
+    background-color: #fd5800;
+    transition: 0.8s;
+}
+
+.sign-up:hover{
+    background-color: #ff4500;
+}
+
+.sign-up a {
+    color: white;
+}
+
+.main{
+    display: flex;
+    height: 964px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/airplane_wallpaper.jpeg) no-repeat center top / cover;;
+}
+
+.title-main{
+    padding-top: 120px;
+    display: flex;
+    font-size: 96px;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+
+.title-additional{
+    margin: 0;
+    padding-top: 25px;
+    font-size: 32px;
+    color: white;
+    font-weight: 400;
+}
+
+.button-search-tickets{
+    margin-top: 200px;
+    border-style: none;
+    align-items: center;
+    padding: 30px 50px;
+    color: white;
+    font-size: 24px;
+    background-color: #fd5800;
+    transition: 0.8s;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border: solid 1px #cb410b;
+}
+
+.button-search-tickets:hover{
+    cursor: pointer;
+    background-color: #ff4500;
+}
+
+.footer{
+    background-color: #252525;
+    color: white;
+}
+
+.footer-bottom{
+    font-size: 18px;
+    color: #575757;
+    height: 40px;
+    background:#222222;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer-container{
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us{
+
+}
+
+.social-list{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+}
+
+.social-list-item{
+    padding-right: 15px;
+}
+
+.svg-href:hover{
+    transition: 0.8s;
+    fill: #ff4500;
+}
+
